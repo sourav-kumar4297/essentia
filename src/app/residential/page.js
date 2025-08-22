@@ -14,27 +14,29 @@ const page = () => {
   const aboutHeading =
     "Luxury Residential Interiors: Designing Homes With Elegance";
   const aboutText = [
-    <p key="1">
-      Essentia Environments stands as a pinnacle of excellence in
-      <b>luxury residential interior design</b>, transforming ordinary houses
-      into extraordinary homes. We believe that a home should be a sanctuary, a
-      reflection of the homeowner's personality and lifestyle. As one of the
-      <b>
-        best residential interior designers in Gurgaon and all over India too.
-      </b>
-      , we possess a unique ability to translate our clients' visions into
-      tangible realities, creating <b>interiors</b> that exude elegance and
-      sophistication.
-    </p>,
-    <p key="2">
-      Our extensive portfolio showcases our mastery in designing luxurious
-      apartments and sprawling farmhouses. We understand that each project is
-      unique, requiring a tailored approach that considers the client's
-      individual needs and preferences. As a leading name among
-      <b>residential interior designers in Gurgaon and Delhi NCR</b>, we take
-      pride in our ability to infuse a distinct blend of elegance, refinement,
-      and vibrant originality into every space we create.
-    </p>,
+   <p key="1">
+  Essentia Environments stands as a pinnacle of excellence in
+  <b>luxury residential interior design</b>, transforming ordinary houses
+  into extraordinary homes. We believe that a home should be a sanctuary, a
+  reflection of the homeowner&apos;s personality and lifestyle. As one of the
+  <b>
+    best residential interior designers in Gurgaon and all over India too.
+  </b>
+  , we possess a unique ability to translate our clients&apos; visions into
+  tangible realities, creating <b>interiors</b> that exude elegance and
+  sophistication.
+</p>,
+
+<p key="2">
+  Our extensive portfolio showcases our mastery in designing luxurious
+  apartments and sprawling farmhouses. We understand that each project is
+  unique, requiring a tailored approach that considers the client&apos;s
+  individual needs and preferences. As a leading name among
+  <b>residential interior designers in Gurgaon and Delhi NCR</b>, we take
+  pride in our ability to infuse a distinct blend of elegance, refinement,
+  and vibrant originality into every space we create.
+</p>
+
   ];
   const projects = [
     {
