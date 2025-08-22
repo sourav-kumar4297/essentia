@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import { useRef } from 'react';
-import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
-import Image from 'next/image';
+import { useRef } from "react";
+import { motion, useScroll, useTransform, useSpring } from "framer-motion";
+import Image from "next/image";
 
 const slides = [
-  { src: '/images/latest-project1.webp', title: 'Contemporary Villa' },
-  { src: '/images/latest-project2.webp', title: 'Urban Apartment' },
-  { src: '/images/latest-project3.webp', title: 'Luxury Retreat' },
-  { src: '/images/banner3.webp',       title: 'Futuristic Workspace' },
+  { src: "/images/latest-project1.webp", title: "Contemporary Villa" },
+  { src: "/images/latest-project2.webp", title: "Urban Apartment" },
+  { src: "/images/latest-project3.webp", title: "Luxury Retreat" },
+  { src: "/images/banner3.webp", title: "Futuristic Workspace" },
 ];
 
 export default function LatestCreations() {
@@ -24,7 +24,7 @@ export default function LatestCreations() {
     target: sectionRef,
     // Complete when the section bottom reaches the viewport bottom.
     // This ensures the last slide is fully visible.
-    offset: ['start start', 'end end'],
+    offset: ["start start", "end end"],
   });
 
   // Map vertical progress to horizontal translate in vw units (0 → -((n-1)*100))
@@ -33,9 +33,13 @@ export default function LatestCreations() {
   const x = useTransform(xSpring, (v) => `${v}vw`);
 
   return (
-    <section ref={sectionRef} style={{ height: sectionHeight }} className="relative w-full">
+    <section
+      ref={sectionRef}
+      style={{ height: sectionHeight }}
+      className="relative w-full"
+    >
       {/* Sticky viewport */}
-      <div className="sticky top-0 h-screen w-full overflow-hidden bg-black">
+      <div className="sticky top-0 md:h-screen h-auto w-full overflow-hidden bg-black">
         {/* Horizontal track */}
         <motion.div style={{ x }} className="flex h-full">
           {slides.map((slide, index) => (
@@ -59,7 +63,7 @@ function Slide({ slide, index, xSpring }) {
     return Math.max(0, t);
   });
 
-  const headingOpacity = visibility;               // 0 → 1
+  const headingOpacity = visibility; // 0 → 1
   const headingY = useTransform(visibility, [0, 1], [24, 0]); // slide up in
 
   return (
@@ -69,7 +73,7 @@ function Slide({ slide, index, xSpring }) {
         alt={slide.title}
         fill
         priority={index === 0}
-        className="object-cover"
+        className="md:object-cover object-contain"
       />
       <div className="absolute inset-0 bg-black/30 pointer-events-none" />
 
@@ -83,5 +87,3 @@ function Slide({ slide, index, xSpring }) {
     </div>
   );
 }
-
-

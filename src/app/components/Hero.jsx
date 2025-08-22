@@ -40,7 +40,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative w-full h-[100vh] overflow-hidden -mt-10">
+    <section className="relative w-full h-[70vh] md:h-[100vh] overflow-hidden -mt-10">
       {/* Background Image with Transition */}
       <AnimatePresence mode="wait">
         <motion.div

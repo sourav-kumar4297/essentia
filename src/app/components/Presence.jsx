@@ -37,7 +37,7 @@ export default function Presence() {
   return (
     <section
       ref={ref}
-      className="relative py-24 px-6 bg-background text-foreground overflow-hidden"
+      className="relative py-24 pt-12 px-6 bg-background text-foreground overflow-hidden"
     >
       {/* Glowy blur background */}
       <div className="absolute inset-0 -z-10 flex justify-center items-center">
@@ -64,10 +64,10 @@ export default function Presence() {
               whileHover={{ scale: 1.05 }}
               className="border border-border bg-card text-card-foreground p-10 flex flex-col items-center justify-center rounded-xl shadow-md dark:shadow-amber-500/20 transition-all"
             >
-              <div className="mb-4 text-amber-500">{item.icon}</div>
+              <div className="mb-4 text-primary">{item.icon}</div>
               <div className="text-5xl font-bold tracking-wide mb-2">
                 {counters[i]}
-                <span className="text-amber-500">+</span>
+                <span className="text-secondary">+</span>
               </div>
               <p className="text-muted-foreground uppercase tracking-widest text-xs text-center">
                 {item.label}
