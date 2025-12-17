@@ -2,7 +2,7 @@ import MissionVision from "../components/MissionVision";
 import TimeLineEssentia from "../components/TimeLineEssentia";
 import Presence from "../components/Presence";
 import LeadershipSection from "../components/LeadershipSection";
-import WobbleCards from "../components/WobbleCards";
+import { WobbleCards } from "../components/WobbleCards";
 import Banner from "../components/Banner";
 
 export const metadata = {

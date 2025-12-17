@@ -1,4 +1,4 @@
-import Residential from "../../../residential/page";
+import Residential from "../../residential/page";
 
 export const metadata = {
   title: "Residential Projects",
