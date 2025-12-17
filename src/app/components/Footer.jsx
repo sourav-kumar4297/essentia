@@ -101,7 +101,16 @@ export default function Footer() {
               <Link href="/about">About Us</Link>
             </li>
             <li>
+              <Link href="/career">Careers</Link>
+            </li>
+            <li>
               <Link href="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link href="/turnkey-execution">Turnkey Execution</Link>
+            </li>
+            <li>
+              <Link href="/services">Services</Link>
             </li>
             <li>
               <Link href="/contact-us">Contact</Link>

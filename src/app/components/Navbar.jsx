@@ -78,6 +78,9 @@ export default function Navbar() {
           <Link href="/turnkey-execution" className="menu-hover p-1">
             Turnkey Execution
           </Link>
+          <Link href="/services" className="menu-hover p-1">
+            Services
+          </Link>
           <Link href="/contact-us" className="menu-hover p-1">
             Contact
           </Link>
@@ -130,6 +133,9 @@ export default function Navbar() {
 
           <MobileLink href="/turnkey-execution" onClick={toggleMenu}>
             Turnkey Execution
+          </MobileLink>
+          <MobileLink href="/services" onClick={toggleMenu}>
+            Services
           </MobileLink>
           <MobileLink href="/contact" onClick={toggleMenu}>
             Contact
