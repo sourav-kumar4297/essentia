@@ -1,7 +1,6 @@
 import Banner from "../components/Banner";
 import Text from "../components/Text";
 import ProjectsGallery from "../components/ProjectsGallery";
-import ProjectsHover from "../components/ProjectsHover";
 import LatestCreations from "../components/LatestCreations";
 
 export const metadata = {
@@ -26,7 +25,6 @@ export default function ProjectsPage() {
         />
 
         <ProjectsGallery title="Latest Projects" />
-        <ProjectsHover />
         <LatestCreations />
       </div>
     </>

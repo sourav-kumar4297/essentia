@@ -1,6 +1,6 @@
-import Banner from "../../components/Banner";
-import CareerSection from "../../components/CareerSection";
-import Text from "../../components/Text";
+import Banner from "../components/Banner";
+import CareerSection from "../components/CareerSection";
+import Text from "../components/Text";
 
 export const metadata = {
   title: "Careers",

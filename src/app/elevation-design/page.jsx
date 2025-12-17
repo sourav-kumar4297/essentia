@@ -1,5 +1,5 @@
-import Banner from "../../components/Banner";
-import Text from "../../components/Text";
+import Banner from "../components/Banner";
+import Text from "../components/Text";
 import Link from "next/link";
 
 export const metadata = {
