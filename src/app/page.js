@@ -17,7 +17,7 @@ export default function Home() {
       <Presence />
       <LatestCreations />
        <Card/>
-      <ClientTestimonial />
+      {/* <ClientTestimonial /> */}
       <InfiniteTestimonials />
       <Newsletter />
      
