@@ -10,7 +10,13 @@ export const metadata = {
 export default function FurnitureIndex() {
   const content = [
     <p key="1">
-      Explore our bespoke furniture collections. Choose <Link href="/furniture/indoor">Indoor</Link> or <Link href="/furniture/outdoor">Outdoor</Link> solutions.
+      Our bespoke furniture is a testament to indigenous design sensibilities combined with contemporary aesthetics. Each piece is meticulously handcrafted to meet your exact specifications and complement your space perfectly.
+    </p>,
+    <p key="2">
+      Whether you're looking for custom indoor furniture for your home or office, or premium outdoor pieces for your garden and terrace, we provide tailored solutions. Our philosophy centers on creating furniture that is not only visually striking but also functionally superior.
+    </p>,
+    <p key="3">
+      Choose <Link href="/furniture/indoor">Indoor Furniture</Link> or <Link href="/furniture/outdoor">Outdoor Solutions</Link> to explore our collections.
     </p>,
   ];
 

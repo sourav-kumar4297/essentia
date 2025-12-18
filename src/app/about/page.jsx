@@ -9,9 +9,9 @@ import Text from '../components/Text'
 
 const page = () => {
   const aboutText = [
-  <p key="1">At Essentia, design is not just about aesthetics — it's a philosophy, a lifestyle, and a promise to craft spaces that evoke emotion and purpose. With decades of expertise and a portfolio that spans the globe, we redefine luxury by merging form with function."</p>,
-  <p key="2">Every detail, material, and silhouette is handpicked and curated to reflect your story. Our team of passionate designers, architects, and craftsmen work collaboratively to turn vision into reality — one timeless space at a time.</p>,
-  <p key="3">We don't just design interiors. We build narratives. Stories of bold choices, harmonious proportions, and deeply personal expressions of identity. Welcome to spaces that breathe life and inspire the everyday.</p>
+  <p key="1">At Essentia Environments, we believe your house should be a personal haven. As India's premier interior design and furniture craftsmanship company, we transform your vision from a basic concept into a spectacular reality. We provide a full design-to-build service, guaranteeing that every detail is completed with precision and creativity.</p>,
+  <p key="2">We are a multi-disciplinary team with a vast suite of capabilities. Whether you want a modern minimalist style or a classic, sumptuous design, our team combines sophistication and functionality to create spaces that reflect your unique craftsmanship and taste.</p>,
+  <p key="3">At Essentia Environments, we're not just designing rooms; we're crafting premier experiences. Every piece of custom-made furniture, every carefully selected décor element, and every architectural decision is made with your vision at the forefront.</p>
 ]
   return (
     <>

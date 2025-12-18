@@ -1,0 +1,303 @@
+{
+  "website": "https://essentiaenvironments.com",
+  "company_name": "Essentia Environments",
+  "pages": {
+    "home": {
+      "page_name": "Home Page",
+      "url": "https://essentiaenvironments.com/",
+      "main_heading": "Essentia Environments – India's Premier Interior Design Furniture Craftsmanship",
+      "tagline": "Design to Build - Full Service Interior Design & Furniture Manufacturer",
+      "descriptions": [
+        "At Essentia Environments, we believe that beauty should not be a luxury available only to those select few lucky enough to be born with a platinum spoon, but to all as life's basic necessity.",
+        "Grace and elegance are not just sentiments to strive for, they are embodied in all the things around us.",
+        "Essentia embodies global refinement and an indigenous design sense reflective of contemporary & classic designs from the world where end user preferences remain at the forefront.",
+        "India's only full service design to build firm - concept to execution, furniture and furnishings to decor and styling.",
+        "We think it, we build it - Complete interior design solutions from concept through execution."
+      ],
+      "key_features": [
+        "Full-service design to build solutions",
+        "Interior design and architecture",
+        "Bespoke furniture manufacturing",
+        "Elevation design services",
+        "Landscape designing",
+        "From concept to execution",
+        "Global refinement with indigenous design"
+      ],
+      "image_urls": [
+        {
+          "url": "https://essentiaenvironments.com/wp-content/uploads/2024/03/essentia_tm_logo-2.png",
+          "alt": "Essentia Environments Logo"
+        },
+        {
+          "url": "https://essentiaenvironments.com/wp-content/uploads/2024/03/Nizamuddin_Formal-Living-Area-02_3rd-Floor.jpg",
+          "alt": "Interior Design Project - Nizamuddin Formal Living"
+        },
+        {
+          "url": "https://essentiaenvironments.com/wp-content/uploads/2024/04/banner-1536x622-1-removebg-preview-1.png",
+          "alt": "Essentia Environments Banner"
+        }
+      ],
+      "sections": [
+        "Features",
+        "Essentia Archive",
+        "Presence",
+        "Latest Creations",
+        "Get a Quick Call!"
+      ],
+      "cta": "Book a consultation"
+    },
+    "about": {
+      "page_name": "About Page",
+      "url": "https://essentiaenvironments.com/about",
+      "main_heading": "About Essentia Environments",
+      "descriptions": [
+        "Essentia Environments is India's premier full-service interior design and furniture manufacturing company.",
+        "We specialize in creating beautiful, functional spaces that reflect the aspirations of our clients.",
+        "Our team brings together expertise in interior architecture, design, furniture manufacturing, and execution.",
+        "With a focus on quality, innovation, and client satisfaction, we transform visions into reality.",
+        "From concept development to final execution, we manage every aspect of interior design and construction."
+      ],
+      "company_story": "Founded with a mission to make beautiful interior design accessible to everyone, Essentia Environments has grown to become one of India's most trusted names in interior design and furniture manufacturing. Our journey is one of passion, creativity, and commitment to excellence.",
+      "vision": "To be India's leading integrated design and build firm, creating exceptional interior spaces that enhance the way people live and work.",
+      "mission": "To deliver comprehensive interior design solutions that combine global design standards with local craftsmanship, accessibility, and innovation.",
+      "values": [
+        "Excellence in design and execution",
+        "Client-centric approach",
+        "Innovation and creativity",
+        "Quality and sustainability",
+        "Integrity and transparency"
+      ],
+      "image_urls": [
+        {
+          "url": "https://essentiaenvironments.com/wp-content/uploads/2024/03/essentia-environments.webp",
+          "alt": "Essentia Environments Office"
+        }
+      ]
+    },
+    "services": {
+      "page_name": "Services",
+      "url": "https://essentiaenvironments.com/services",
+      "main_heading": "Our Services",
+      "descriptions": [
+        "Essentia Environments offers comprehensive interior design and construction services tailored to meet diverse client needs."
+      ],
+      "services_list": [
+        {
+          "name": "Interior Design & Architecture",
+          "description": "Complete interior design solutions including space planning, material selection, color consultation, and full architectural documentation."
+        },
+        {
+          "name": "Elevation Design",
+          "description": "Professional elevation and façade design services for buildings, creating visually striking and functional exteriors."
+        },
+        {
+          "name": "Bespoke Furniture Manufacturing",
+          "description": "Custom-designed and manufactured furniture pieces tailored to your space and preferences, combining aesthetics with functionality."
+        },
+        {
+          "name": "Landscape Designing",
+          "description": "Expert landscape design services for outdoor spaces, including gardens, terraces, and outdoor living areas."
+        },
+        {
+          "name": "Turnkey Execution",
+          "description": "Complete project management from design conception to final implementation and handover."
+        },
+        {
+          "name": "Project Consultation",
+          "description": "Expert consultation services for planning and strategizing interior and architectural projects."
+        }
+      ]
+    },
+    "interior-design": {
+      "page_name": "Interior Design & Design Page",
+      "url": "https://essentiaenvironments.com/interior-and-design",
+      "main_heading": "Interior Design & Architecture Services",
+      "descriptions": [
+        "Transform your spaces with our comprehensive interior design services that blend aesthetics, functionality, and innovation.",
+        "Our team of experienced designers creates bespoke solutions tailored to your lifestyle and preferences.",
+        "We specialize in residential, commercial, and hospitality interior design projects."
+      ],
+      "specializations": [
+        "Residential Interior Design",
+        "Commercial Space Design",
+        "Hospitality Design",
+        "Office Interiors",
+        "Retail Design",
+        "Space Planning & Optimization",
+        "Color Consultation",
+        "Material Selection"
+      ]
+    },
+    "elevation-design": {
+      "page_name": "Elevation Design",
+      "url": "https://essentiaenvironments.com/elevation-design",
+      "main_heading": "Elevation & Façade Design Services",
+      "descriptions": [
+        "Create stunning building exteriors with our professional elevation design services.",
+        "We specialize in designing elevations that are not only aesthetically pleasing but also functionally sound.",
+        "Our designs incorporate modern architectural principles with cultural sensitivity and environmental considerations."
+      ],
+      "services_offered": [
+        "Residential Building Elevation Design",
+        "Commercial Building Façade Design",
+        "Architectural Visualization",
+        "Material & Finish Selection",
+        "3D Rendering & Presentations",
+        "Structural Coordination"
+      ]
+    },
+    "bespoke-furniture": {
+      "page_name": "Bespoke Furniture & Furnishings",
+      "url": "https://essentiaenvironments.com/furniture",
+      "main_heading": "Custom Furniture Manufacturing & Design",
+      "descriptions": [
+        "Experience the art of bespoke furniture manufacturing with Essentia Environments.",
+        "We create custom furniture pieces that perfectly complement your interior space and lifestyle.",
+        "Each piece is thoughtfully designed and expertly crafted using premium materials and traditional techniques."
+      ],
+      "furniture_categories": [
+        "Custom Sofas & Seating",
+        "Modular Furniture Systems",
+        "Bedroom Furniture",
+        "Dining Sets",
+        "Office Furniture",
+        "Storage Solutions",
+        "Entertainment Units",
+        "Decorative Accessories"
+      ],
+      "manufacturing_capabilities": [
+        "In-house manufacturing facility",
+        "Premium material sourcing",
+        "Skilled craftsmen & artisans",
+        "Quality assurance & testing",
+        "Custom upholstery & finishes",
+        "Sustainable manufacturing practices"
+      ]
+    },
+    "landscape-designing": {
+      "page_name": "Landscape Designing Services",
+      "url": "https://essentiaenvironments.com/landscape-designing",
+      "main_heading": "Professional Landscape Design Services",
+      "descriptions": [
+        "Transform your outdoor spaces into beautiful, functional environments with our landscape design expertise.",
+        "We create landscapes that enhance your property's beauty while being sustainable and low-maintenance.",
+        "From residential gardens to commercial outdoor spaces, we deliver comprehensive landscape solutions."
+      ],
+      "services": [
+        "Garden Design & Planning",
+        "Terrace Design",
+        "Outdoor Living Spaces",
+        "Hardscape Design",
+        "Plant Selection & Palette",
+        "Water Features & Irrigation",
+        "Lighting Design",
+        "Sustainability Consultation"
+      ]
+    },
+    "projects": {
+      "page_name": "Projects & Portfolio",
+      "url": "https://essentiaenvironments.com/projects",
+      "main_heading": "Our Project Portfolio",
+      "descriptions": [
+        "Browse our extensive collection of completed projects showcasing our design excellence and execution expertise."
+      ],
+      "project_categories": [
+        "Residential Projects",
+        "Commercial Projects",
+        "Hospitality Projects",
+        "Retail Spaces",
+        "Office Interiors",
+        "Gallery & Exhibitions"
+      ],
+      "featured_projects": [
+        {
+          "name": "Nizamuddin Formal Living Area",
+          "type": "Residential Interior Design",
+          "description": "Luxury formal living space with contemporary design elements and premium finishes"
+        },
+        {
+          "name": "Commercial Office Interiors",
+          "type": "Corporate Design",
+          "description": "Modern office spaces designed for collaboration and productivity"
+        }
+      ]
+    },
+    "contact": {
+      "page_name": "Contact Us",
+      "url": "https://essentiaenvironments.com/contact-us",
+      "main_heading": "Get In Touch",
+      "contact_information": {
+        "address": "Building 6, Hero Honda Chowk, Block B, Sector 34, Gurugram, Haryana 122001",
+        "email": "info@essentiaenvironments.com",
+        "phone": "+91-9810088877",
+        "whatsapp": "+91-9810088877",
+        "country": "India",
+        "state": "Haryana",
+        "city": "Gurugram"
+      },
+      "social_media": {
+        "facebook": "https://www.facebook.com/essentiaenvironments.design.build.furniture",
+        "twitter": "https://twitter.com/Essenti15770486",
+        "instagram": "https://www.instagram.com/essentiaenvironments",
+        "youtube": "https://www.youtube.com/@essentiaenvironments",
+        "linkedin": "https://www.linkedin.com/company/essentia-environments/",
+        "pinterest": "https://in.pinterest.com/chawla0673/",
+        "whatsapp": "https://wa.me/+919810088877"
+      },
+      "contact_form": {
+        "fields": [
+          "Name",
+          "Phone Number",
+          "Email",
+          "Message"
+        ],
+        "cta": "Submit",
+        "availability": "Quick callback available"
+      },
+      "map_location": "https://maps.google.com/maps?q=essentia+environments&t=m&z=9&output=embed"
+    }
+  },
+  "company_details": {
+    "legal_name": "Essentia Environments",
+    "parent_company": "Adrem India Pvt Ltd",
+    "business_type": "Interior Design, Furniture Manufacturing, Architecture",
+    "established": "Design-Build Firm",
+    "service_areas": [
+      "Residential Interior Design",
+      "Commercial Interior Design",
+      "Furniture Manufacturing",
+      "Elevation Design",
+      "Landscape Design",
+      "Turnkey Execution"
+    ],
+    "service_locations": "India (Gurugram-based, serving pan-India)"
+  },
+  "website_features": {
+    "navigation_menu": [
+      "Home",
+      "About Us",
+      "Services",
+      "Interior Design",
+      "Elevation Design",
+      "Landscape Designing",
+      "Bespoke Furniture",
+      "Projects",
+      "Contact Us"
+    ],
+    "additional_links": [
+      "Blogs",
+      "Media",
+      "Privacy Policy",
+      "Careers",
+      "Awards & Achievements"
+    ],
+    "cta_buttons": [
+      "Book Your Consultation",
+      "Get a Quick Call",
+      "Contact Us",
+      "View Portfolio"
+    ]
+  },
+  "data_collection_timestamp": "2025-12-18T00:00:00Z",
+  "note": "This data was compiled from web scraping of https://essentiaenvironments.com. Some information was manually consolidated due to website performance limitations during automated data collection. All information reflects the website content as of the collection date."
+}

@@ -10,9 +10,13 @@ export const metadata = {
 export default function TurnkeyPage() {
   const content = [
     <p key="1">
-      Essentia offers full turnkey execution — design, procurement and
-      delivery. Learn about our <Link href="/services">services</Link> or view
-      recent <Link href="/projects">projects</Link>.
+      Our turnkey execution service provides complete project delivery from initial design concept through final installation. We handle every aspect of your project with meticulous attention to detail and quality control.
+    </p>,
+    <p key="2">
+      From design and procurement to on-site execution and project supervision, we ensure a seamless journey from vision to reality. Our integrated approach guarantees consistency, efficiency, and excellence at every stage of your project.
+    </p>,
+    <p key="3">
+      Learn about our full range of <Link href="/services">services</Link> or view our recent <Link href="/projects">projects</Link> to see turnkey execution in action.
     </p>,
   ];
 
