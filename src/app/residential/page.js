@@ -2,6 +2,8 @@ import React from "react";
 import Banner from "../components/Banner";
 import Text from "../components/Text";
 import ProjectsGallery from "../components/ProjectsGallery";
+import { Grid } from "../components/Grid";
+import { WobbleCards } from "../components/WobbleCards";
 
 export const metadata = {
   title: "Residential Projects",
@@ -16,28 +18,20 @@ export default function Page() {
   const aboutText = [
     (
       <p key="1">
-        Essentia Environments stands as a pinnacle of excellence in{" "}
-        <strong>luxury residential interior design</strong>, transforming
-        ordinary houses into extraordinary homes. We believe that a home should
-        be a sanctuary, a reflection of the homeowner&rsquo;s personality and
-        lifestyle. As one of the{" "}
-        <strong>
-          best residential interior designers in Gurgaon and all over India too.
-        </strong>{" "}
-        We possess a unique ability to translate our clients&rsquo; visions into
-        tangible realities, creating <strong>interiors</strong> that exude
-        elegance and sophistication.
+        Essentia Environments stands as a pinnacle of excellence in luxury residential interior design, transforming ordinary houses into extraordinary homes. We believe that a home should be a sanctuary, a reflection of the homeowner's personality and lifestyle. We possess a unique ability to translate our clients' visions into tangible realities, creating interiors that exude elegance and sophistication.
+      </p>
+    ),
+  ];
+
+  const aboutText2 = [
+    (
+      <p key="2">
+        Our extensive portfolio showcases our mastery in designing luxurious apartments and sprawling farmhouses. We understand that each project is unique, requiring a tailored approach that considers the client's individual needs and preferences. We take pride in our ability to infuse a distinct blend of elegance, refinement, and vibrant originality into every space we create.
       </p>
     ),
     (
-      <p key="2">
-        Our extensive portfolio showcases our mastery in designing luxurious
-        apartments and sprawling farmhouses. We understand that each project is
-        unique, requiring a tailored approach that considers the
-        client&rsquo;s individual needs and preferences. As a leading name among{" "}
-        <strong>residential interior designers in Gurgaon and Delhi NCR</strong>
-        , we take pride in our ability to infuse a distinct blend of elegance,
-        refinement, and vibrant originality into every space we create.
+      <p key="3">
+        From minimalist modern homes to classic opulent residences, our residential projects reflect diverse design philosophies. Each home we design becomes a personal sanctuary where functionality meets beauty, and everyday spaces become extraordinary experiences.
       </p>
     ),
   ];
@@ -65,7 +59,10 @@ export default function Page() {
     <>
       <Banner heading="Residential" image="/images/residential.jpg" />
       <Text heading={aboutHeading} content={aboutText} />
+      <Grid />
+      <Text content={aboutText2} />
       <ProjectsGallery title="Latest Projects" projects={projects} />
+      <WobbleCards />
     </>
   );
 }
