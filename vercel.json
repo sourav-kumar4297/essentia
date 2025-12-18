@@ -1,6 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "nodeVersion": "24.11.1",
   "buildCommand": "npm run build",
   "installCommand": "npm ci",
   "outputDirectory": ".next",
@@ -34,4 +33,5 @@
     }
   ]
 }
+
 
