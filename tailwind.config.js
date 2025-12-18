@@ -4,6 +4,7 @@ const { Raleway } = require('next/font/google');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './app/**/*.{js,jsx}',
     './components/**/*.{js,jsx}',
@@ -12,6 +13,10 @@ module.exports = {
     extend: {
       fontFamily: {
        sans: ['Raleway', 'sans-serif'],
+      },
+      colors: {
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
       },
       animation: {
         fadeIn: 'fadeIn 0.6s ease-out forwards',

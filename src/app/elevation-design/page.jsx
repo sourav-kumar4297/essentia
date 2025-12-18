@@ -1,80 +1,31 @@
-import Banner from "../components/Banner";
-import React from "react";
+import React from 'react'
+import Banner from '../components/Banner'
+import Text from '../components/Text'
+import { Scroll } from '../components/Scroll';
+import { Grid } from '../components/Grid';
+import { WobbleCards } from '../components/WobbleCards';
 
 export const metadata = {
   title: "Elevation Design",
-  description: "Elevation design services by Essentia Environments",
+  description: "Premium elevation design services by Essentia Environments - Creating distinctive architectural exteriors with modern innovation",
 };
 
-const elevationFeatures = [
-  {
-    title: "Façade Design",
-    description: "Innovative exterior designs that create visual impact and architectural identity"
-  },
-  {
-    title: "Material Selection",
-    description: "Premium materials chosen for durability, aesthetics, and sustainability"
-  },
-  {
-    title: "Detailing Expertise",
-    description: "Meticulous attention to every architectural detail and proportion"
-  },
-  {
-    title: "Contextual Integration",
-    description: "Designs that harmonize with surrounding environment and urban context"
-  },
-  {
-    title: "Structural Excellence",
-    description: "Elevations that balance beauty with structural integrity"
-  },
-  {
-    title: "Modern Innovation",
-    description: "Contemporary design solutions with timeless appeal"
-  },
+const page = () => {
+    const aboutHeading = "Elevation Design: Architectural Excellence Through Innovation";
+     const aboutText = [
+  <p key="1">At Essentia Environments, our elevation design services create distinctive architectural exteriors that make a powerful statement. We specialize in transforming buildings into iconic landmarks by blending cutting-edge contemporary design with timeless architectural principles. Our team meticulously crafts façades that not only enhance visual impact but also harmonize with surrounding contexts and structural requirements.</p>,
 ];
-
-export default function ElevationPage() {
+const aboutText2 = [<p key="2">Our approach to elevation design combines aesthetic brilliance with practical functionality. We work with premium materials, sustainable building practices, and innovative detailing to create exteriors that age beautifully and perform exceptionally. Whether you're designing a corporate headquarters, luxury residential tower, or heritage restoration, our team brings expertise in material selection, contextual integration, and modern innovation to deliver elevations that truly transform the urban landscape.</p>]
   return (
-    <React.Fragment>
-      <Banner heading="Elevation Design" image="/images/elevation-design-1.jpg" />
-      
-      <div className="container mx-auto px-6 py-20">
-        {/* Intro Section */}
-        <div className="max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl font-bold text-white mb-6">Architectural Excellence Through Design</h2>
-          <p className="text-lg text-gray-300 leading-relaxed">
-            Our elevation design services focus on creating distinctive architectural exteriors that make a statement. We blend innovation with tradition, combining contemporary aesthetics with timeless principles to design façades that elevate your architectural vision.
-          </p>
-        </div>
-
-        {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
-          {elevationFeatures.map((feature, idx) => (
-            <div
-              key={idx}
-              className="group bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-xl border border-slate-700 hover:border-white/20 transition-all hover:shadow-2xl"
-            >
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">
-                {feature.title}
-              </h3>
-              <p className="text-gray-300">{feature.description}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* Detailed Content */}
-        <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-2xl p-12 border border-slate-700">
-          <h3 className="text-3xl font-bold text-white mb-6">Our Design Process</h3>
-          <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">
-              We approach each elevation project with a comprehensive design methodology. Our team analyzes the site context, building purpose, and architectural requirements to create elevations that are both functional and visually compelling.
-            </p>
-            <p className="text-gray-300 leading-relaxed">
-              From conceptual sketches to detailed technical drawings, we ensure every element serves a purpose. Our designs incorporate sustainable practices, optimize natural lighting, and create facades that age beautifully over time.
-            </p>
-          </div>
-        </div>
-      </div>
-    </React.Fragment>
-  );
+    <>
+    <Banner heading="Elevation Design" image="/images/elevation-design-1.jpg" />
+    <Text heading={aboutHeading} content={aboutText}/>
+     <Grid />
+    <Text content={aboutText2}/>
+    <Scroll />
+    <WobbleCards />
+    </>
+  )
 }
+
+export default page
