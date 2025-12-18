@@ -26,7 +26,7 @@ export default function IndoorFurniture() {
 
   return (
     <>
-      <Banner heading="Indoor Furniture" image="/images/furniture.png" />
+      <Banner heading="Indoor Furniture" image="/images/furniture-indoor-1.jpg" />
       <div className="container mx-auto px-6 py-12">
         <Text heading="Indoor Furniture: Bespoke Craftsmanship" content={content} />
         <Grid />

@@ -26,7 +26,7 @@ export default function OutdoorFurniture() {
 
   return (
     <>
-      <Banner heading="Outdoor Furniture" image="/images/outdoor-furniture.webp" />
+      <Banner heading="Outdoor Furniture" image="/images/outdoor-furniture-1.webp" />
       <div className="container mx-auto px-6 py-12">
         <Text heading="Outdoor Furniture: Luxury for Every Season" content={content} />
         <Grid />

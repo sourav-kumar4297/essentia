@@ -30,7 +30,7 @@ export default function CommercialProjects() {
 
   return (
     <>
-      <Banner heading="Commercial Projects" image="/images/commercial.webp" />
+      <Banner heading="Commercial Projects" image="/images/commercial-projects-1.jpg" />
       <div className="container mx-auto px-6 py-12">
         <Text heading="Commercial Portfolio: Designing Work Spaces" content={intro} />
         <Grid />

@@ -27,7 +27,7 @@ export default function TurnkeyPage() {
 
   return (
     <>
-      <Banner heading="Turnkey Execution" image="/images/turnkey.jpg" />
+      <Banner heading="Turnkey Execution" image="/images/turnkey-execution-1.jpg" />
       <div className="container mx-auto px-6 py-12">
         <Text heading="Complete Project Execution: Design to Delivery" content={content} />
         <Grid />

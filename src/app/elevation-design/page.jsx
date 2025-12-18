@@ -27,7 +27,7 @@ export default function ElevationPage() {
 
   return (
     <>
-      <Banner heading="Elevation Design" image="/images/elevation.jpg" />
+      <Banner heading="Elevation Design" image="/images/elevation-design-1.jpg" />
       <div className="container mx-auto px-6 py-12">
         <Text heading="Elevation Design: Architectural Excellence" content={content} />
         <Grid />

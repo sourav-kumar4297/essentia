@@ -27,7 +27,7 @@ export default function LandscapePage() {
 
   return (
     <>
-      <Banner heading="Landscape Designing" image="/images/landscaping.webp" />
+      <Banner heading="Landscape Designing" image="/images/landscape-design-1.jpg" />
       <div className="container mx-auto px-6 py-12">
         <Text heading="Landscape Designing: Nature's Harmony" content={content} />
         <Grid />
