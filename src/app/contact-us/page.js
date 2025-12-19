@@ -8,7 +8,7 @@ const page = () => {
     <>
     <ContactSection/>
     <HeadOfficeLocation />
-    <CareerSection link="/careers"/>
+    <CareerSection link="/career"/>
     </>
   )
 }

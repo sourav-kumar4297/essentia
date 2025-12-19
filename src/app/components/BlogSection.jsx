@@ -1,7 +1,12 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
+
+// All cards point to a single featured blog article
+const BLOG_SLUG =
+  "essentia-environments-designing-unique-interiors-of-timeless-beauty";
 
 const blogs = [
   {
@@ -46,19 +51,23 @@ export default function BlogSection() {
               transition={{ duration: 0.5, delay: i * 0.2 }}
               className=" overflow-hidden shadow-lg hover:shadow-amber-500/30 transition-shadow group"
             >
-              <div className="relative w-full h-52">
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-6">
-                <p className="text-xs text-amber-500 uppercase mb-2">{blog.date}</p>
-                <h3 className="text-lg font-semibold mb-2">{blog.title}</h3>
-                <p className="text-sm ">{blog.description}</p>
-              </div>
+              <Link href={`/blog/${BLOG_SLUG}`}>
+                <div className="relative w-full h-52">
+                  <Image
+                    src={blog.image}
+                    alt={blog.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6">
+                  <p className="text-xs text-amber-500 uppercase mb-2">
+                    {blog.date}
+                  </p>
+                  <h3 className="text-lg font-semibold mb-2">{blog.title}</h3>
+                  <p className="text-sm ">{blog.description}</p>
+                </div>
+              </Link>
             </motion.div>
           ))}
         </div>

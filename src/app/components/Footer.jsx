@@ -107,16 +107,16 @@ export default function Footer() {
               <Link href="/projects">Projects</Link>
             </li>
             <li>
-              <Link href="/turnkey-execution">Turnkey Execution</Link>
-            </li>
-            <li>
               <Link href="/services">Services</Link>
             </li>
             <li>
-              <Link href="/contact-us">Contact</Link>
+              <Link href="/media">Media</Link>
             </li>
             <li>
-              <Link href="/interior-and-design">Interior Design</Link>
+              <Link href="/blog">Blog</Link>
+            </li>
+            <li>
+              <Link href="/contact-us">Contact</Link>
             </li>
           </ul>
         </div>

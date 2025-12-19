@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 export default function CareerSection({
   title = "Join Our Team",
   description = "We are always looking for talented designers, architects, and creatives to join our growing family. Explore open positions and build your career with Essentia.",
-  link = "/careers",
+  link = "/career",
   buttonText = "View Careers",
 }) {
   return (
